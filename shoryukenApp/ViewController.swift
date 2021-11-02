@@ -18,9 +18,9 @@ class ViewController: UIViewController {
         
         while let attakImage = UIImage(named: "attak\(imageNameArray.count+1)") {
             imageNameArray.append(attakImage)
+        }
     }
-}
-
+    
     @IBAction func tapImageButton(_ sender: Any) {
         imageView.animationImages = imageNameArray
         imageView.animationDuration = 2.5
